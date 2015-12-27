@@ -3,6 +3,12 @@
 # Validate that the incoming OTA is compatible with an already-installed
 # system
 
+# Skip signature check if running FireOS
+[ -f /system/lib/hw/amzn_dha.mt8127.so ]; then
+  echo "Running FireOS; skipping signature check..."
+  exit 0
+fi
+
 grep -q "Command:.*\"--wipe\_data\"" /tmp/recovery.log
 if [ $? -eq 0 ]; then
   echo "Data will be wiped after install; skipping signature check..."
