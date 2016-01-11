@@ -4,7 +4,7 @@
 # system
 
 # Skip signature check if running FireOS
-[ -f /system/lib/hw/amzn_dha.mt8127.so ]; then
+if [ -f /system/lib/hw/amzn_dha.mt8127.so ]; then
   echo "Running FireOS; skipping signature check..."
   exit 0
 fi
