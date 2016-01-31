@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
     SlimCenter \
     SlimLauncher \
     AdAway \
+    LayersManager \
     LatinIME \
     BluetoothExt 
 
