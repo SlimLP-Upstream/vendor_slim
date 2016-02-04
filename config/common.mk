@@ -88,7 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/overlays/SlimMod_SlimOTA.apk:system/vendor/overlay/SlimMod_SlimOTA.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_SuperSU.apk:system/vendor/overlay/SlimMod_SuperSU.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_SystemUI.apk:system/vendor/overlay/SlimMod_SystemUI.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Telecom.apk:system/vendor/overlay/SlimMod_Telecom.apk 
+    vendor/slim/prebuilt/common/overlays/SlimMod_Telecom.apk:system/vendor/overlay/SlimMod_Telecom.apk \
+    vendor/slim/prebuilt/common/overlays/SlimMod_Navbar.apk:system/vendor/overlay/SlimMod_Navbar.apk
 
 
 # Screen recorder package and lib
