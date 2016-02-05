@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/overlays/SlimMod_PackageInstaller.apk:system/vendor/overlay/SlimMod_PackageInstaller.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_Phone.apk:system/vendor/overlay/SlimMod_Phone.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_Settings.apk:system/vendor/overlay/SlimMod_Settings.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_SlimLauncher.apk:system/vendor/overlay/SlimMod_SlimLauncher.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_SlimOTA.apk:system/vendor/overlay/SlimMod_SlimOTA.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_SuperSU.apk:system/vendor/overlay/SlimMod_SuperSU.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_SystemUI.apk:system/vendor/overlay/SlimMod_SystemUI.apk \
