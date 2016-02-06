@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/overlays/SlimMod_LayersManager.apk:system/vendor/overlay/SlimMod_LayersManager.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_LockcLock.apk:system/vendor/overlay/SlimMod_LockcLock.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_MediaProvider.apk:system/vendor/overlay/SlimMod_MediaProvider.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_PackageInstaller.apk:system/vendor/overlay/SlimMod_PackageInstaller.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_Phone.apk:system/vendor/overlay/SlimMod_Phone.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_Settings.apk:system/vendor/overlay/SlimMod_Settings.apk \
     vendor/slim/prebuilt/common/overlays/SlimMod_SlimOTA.apk:system/vendor/overlay/SlimMod_SlimOTA.apk \
