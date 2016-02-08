@@ -62,35 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
 
-# pre installed layers theme.
-PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/overlays/SlimMod_AOSPCalculator.apk:system/vendor/overlay/SlimMod_AOSPCalculator.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_AOSPContacts.apk:system/vendor/overlay/SlimMod_AOSPContacts.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_AOSPDeskClock.apk:system/vendor/overlay/SlimMod_AOSPDeskClock.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_AOSPDialer.apk:system/vendor/overlay/SlimMod_AOSPDialer.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_AOSPKeyboard.apk:system/vendor/overlay/SlimMod_AOSPKeyboard.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_AOSPLauncher3.apk:system/vendor/overlay/SlimMod_AOSPLauncher3.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_AOSPMms.apk:vendor/overlay/SlimMod_AOSPMms.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Apple_Music_Notification.apk:system/vendor/overlay/SlimMod_Apple_Music_Notification.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_CellBroadcastReceiver.apk:system/vendor/overlay/SlimMod_CellBroadcastReceiver.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_DocumentsUI.apk:system/vendor/overlay/SlimMod_DocumentsUI.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Framework.apk:system/vendor/overlay/SlimMod_Framework.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Google_Hangouts_Notification.apk:system/vendor/overlay/SlimMod_Google_Hangouts_Notification.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Google_Inbox_Notification.apk:system/vendor/overlay/SlimMod_Google_Inbox_Notification.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Google_Mail_Notification.apk:system/vendor/overlay/SlimMod_Google_Mail_Notification.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Google_Mms_Notification.apk:system/vendor/overlay/SlimMod_Google_Mms_Notification.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_LayersManager.apk:system/vendor/overlay/SlimMod_LayersManager.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_LockcLock.apk:system/vendor/overlay/SlimMod_LockcLock.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_MediaProvider.apk:system/vendor/overlay/SlimMod_MediaProvider.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Phone.apk:system/vendor/overlay/SlimMod_Phone.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Settings.apk:system/vendor/overlay/SlimMod_Settings.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_SlimOTA.apk:system/vendor/overlay/SlimMod_SlimOTA.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_SuperSU.apk:system/vendor/overlay/SlimMod_SuperSU.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_SystemUI.apk:system/vendor/overlay/SlimMod_SystemUI.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Telecom.apk:system/vendor/overlay/SlimMod_Telecom.apk \
-    vendor/slim/prebuilt/common/overlays/SlimMod_Navbar.apk:system/vendor/overlay/SlimMod_Navbar.apk
-
-
 # Screen recorder package and lib
 PRODUCT_PACKAGES += \
     ScreenRecorder \
